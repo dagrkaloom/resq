@@ -50,7 +50,7 @@
         "prepush": "npm run test --coverage",
         "prepublish": "yarn test && yarn build",
         "commit": "git-cz",
-        "postinstall": "yarn build"
+        "postinstall": "yarn install && yarn build"
     },
     "jest": {
         "transform": {
